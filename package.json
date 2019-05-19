@@ -1,0 +1,34 @@
+{
+  "name": "speechrecogapp",
+  "version": "1.0.0",
+  "description": "simple app that will transcribe speech and recognise entities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zero-point/speech_recog_app.git"
+  },
+  "keywords": [
+    "speech",
+    "text",
+    "microsoft",
+    "cognitive",
+    "services",
+    "webkit",
+    "api",
+    "entity",
+    "recognition"
+  ],
+  "author": "irina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zero-point/speech_recog_app/issues"
+  },
+  "homepage": "https://github.com/zero-point/speech_recog_app#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
