@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Speech Recognition</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/speechRecognition.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="app">
+    <button type="button" class="btn btn-danger" id="record" value="true">Record</button>
+    <span>Status: </span>
+    <span id="status">Idle</span>
+    <br><br>
+    <div id="output"></div>
+    <div id="entities"></div>
+  </div>
+</body>
+
+</html>
